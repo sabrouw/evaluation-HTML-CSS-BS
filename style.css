@@ -42,7 +42,6 @@ nav{
     height: 100vh;
 }
 form{
-   
     display: flex;
     flex-direction: column;
     border: solid 10px #264653;
@@ -121,12 +120,12 @@ iframe{
     
 }
 
-@media (min-widht:510px), screen {   
+@media (min-widht: 400px), screen {   
     form { 
-    margin-right: 35%;
-    margin-left:35%;
-    margin-top:10%;
-    margin-bottom :20%;
+    margin-right: 20vw;
+    margin-left:20vw;
+    margin-top:10vh;
+    margin-bottom :20vh;
     padding:5%;
     }
 }
