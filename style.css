@@ -11,11 +11,13 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h2 {
+h2 {    
     
     padding-bottom: 2%;
     text-align: center;
-
+}
+.titre1{
+    padding-top: 10%;
 }
 nav{
     background: linear-gradient(45deg,#e76f51,#264653,#2a9d8f);
@@ -27,6 +29,7 @@ nav{
     width: 40vw;
     border-radius: 5%;
     padding-bottom: 3%;
+    
 }
 
 .img-cri{
@@ -50,7 +53,9 @@ form{
 }
 .connectez{
     color: #2a9d8f;
-    
+}
+.form-control{
+    padding-bottom: 50%;
 }
 .lire{
     margin-right: 10% ;
@@ -103,11 +108,14 @@ footer{
     border-radius: 2%;
 }
 iframe{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 1vh;
 }
 .lyon{
     margin-bottom: 2vh;
+    display: flex;
+    justify-content: center ;
 }
 .event{
     margin-right: 1vw;
@@ -117,10 +125,15 @@ iframe{
     .lyon {display: none;}
     iframe{display: none;}
     .img-pleure{ display: none;}
-    
-}
+    .img-cri{
+        display:none;}
+        
+    }
 
-@media (min-widht: 400px), screen {   
+    
+
+
+@media (min-widht: 500px), screen {   
     form { 
     margin-right: 20vw;
     margin-left:20vw;
@@ -128,4 +141,5 @@ iframe{
     margin-bottom :20vh;
     padding:5%;
     }
+    
 }
