@@ -5,20 +5,21 @@ header{
     padding-top: 2%;
     padding-bottom: 1%;
     text-align: center;
-    
 }
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {    
-    
     padding-bottom: 2%;
     text-align: center;
 }
+
 .titre1{
     padding-top: 10%;
 }
+
 nav{
     background: linear-gradient(45deg,#e76f51,#264653,#2a9d8f);
     box-shadow: 5px 5px 10px#0000005e;
@@ -29,21 +30,21 @@ nav{
     width: 100%;
     border-radius: 5%;
     padding-bottom: 3%;
-    
 }
 
 .img-cri{
     height: 60vh;
     width: 40vw;
     border-radius: 5%;
-    
 }
+
 .inline{
     border: solid 10px black;
     background-color: #264653;
     color:white;
     height: 100vh;
 }
+
 form{
     display: flex;
     flex-direction: column;
@@ -51,12 +52,15 @@ form{
     border-top: solid 50px #264653;
     border-radius: 5%;
 }
+
 .connectez{
     color: #2a9d8f;
 }
+
 .form-control{
     padding-bottom: 50%;
 }
+
 .lire{
     margin-right: 10% ;
     margin-left: 10% ;
@@ -67,20 +71,20 @@ main{
     padding-bottom: 10%;
 }
 
-
 footer{
     background: linear-gradient(45deg,#2a9d8f,#264653,#e76f51);
     margin-top: 5%;
     padding-bottom: 5%;
-            
 }
+
 :visited{
     color: black;
-    
 }
-:link{ color: black;
-    
+
+:link{ 
+    color: black;
 }
+
 .display{
     display: flex;
     justify-content: space-evenly;
@@ -89,13 +93,14 @@ footer{
 .twitter{
     display: flex;
     justify-content: space-around;
-
 }
+
 .plan{
     padding-top: 10vh;
     text-align: center;
     list-style: none;
 }
+
 .agenda{
     color: #264653;
     max-width: 1200px;
@@ -105,34 +110,33 @@ footer{
     margin-top: 10vh;
     margin-bottom: 5vh;
     box-shadow: 0 0 10px;
-    
     border-radius: 2%;
 }
+
 iframe{
     display: flex;
     justify-content: center;
     margin-bottom: 1vh;
 }
+
 .lyon{
     margin-bottom: 2vh;
     display: flex;
     justify-content: center ;
 }
+
 .event{
     margin-right: 1vw;
     margin-left: 1vw;
 }
+
 @media  (max-widht:700px), screen and (orientation:portrait) {
     .lyon {display: none;}
     iframe{display: none;}
     .img-pleure{ display: none;}
     .img-cri{
-        display:none;}
-        
+        display:none;} 
     }
-
-    
-
 
 @media (min-widht: 500px), screen {   
     form { 
@@ -141,6 +145,5 @@ iframe{
     margin-top:10vh;
     margin-bottom :20vh;
     padding:5%;
-    }
-    
+    } 
 }
