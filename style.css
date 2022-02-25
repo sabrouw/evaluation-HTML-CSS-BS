@@ -12,8 +12,9 @@ body{
 }
 
 h2 {
-    padding-top: 3%;
+    
     padding-bottom: 2%;
+    text-align: center;
 
 }
 nav{
@@ -34,25 +35,20 @@ nav{
     border-radius: 5%;
     
 }
-/*.inline{
+.inline{
     border: solid 10px black;
     background-color: #264653;
     color:white;
     height: 100vh;
-}*/
+}
 form{
-    margin-right: 15%;
-    margin-left:15%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-    padding: 5%;
+   
     display: flex;
     flex-direction: column;
     border: solid 10px #264653;
     border-top: solid 50px #264653;
     border-radius: 5%;
-    
-}*/
+}
 .connectez{
     color: #2a9d8f;
     
@@ -118,7 +114,19 @@ iframe{
     margin-right: 1vw;
     margin-left: 1vw;
 }
-@media screen and (max-widht:700px) and (orientation:portrait) {
+@media  (max-widht:700px), screen and (orientation:portrait) {
     .lyon {display: none;}
+    iframe{display: none;}
+    .img-pleure{ display: none;}
     
+}
+
+@media (min-widht:510px), screen {   
+    form { 
+    margin-right: 35%;
+    margin-left:35%;
+    margin-top:10%;
+    margin-bottom :20%;
+    padding:5%;
+    }
 }
