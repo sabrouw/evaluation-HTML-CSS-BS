@@ -33,15 +33,23 @@ nav{
 }
 
 .img-cri{
-    height: 60vh;
-    width: 40vw;
-    border-radius: 5%;
+    height: 50%;
+    width: 50%;
+    border-radius: 3%;  
+    padding-bottom: 5%;
+    margin-left: 25% ;
+}
+.lire{
+    margin-right: 10%;
+    margin-left: 15%;
+    padding-top: 5%;
+    text-align: justify;
+    
 }
 
 .inline{
     border: solid 10px black;
     background-color: #264653;
-    color:white;
     height: 100vh;
 }
 
@@ -61,20 +69,10 @@ form{
     padding-bottom: 50%;
 }
 
-.lire{
-    margin-right: 10% ;
-    margin-left: 10% ;
-    padding-top: 17%;
-}
+
 
 main{
     padding-bottom: 10%;
-}
-
-footer{
-    background: linear-gradient(45deg,#2a9d8f,#264653,#e76f51);
-    margin-top: 5%;
-    padding-bottom: 5%;
 }
 
 :visited{
@@ -129,7 +127,11 @@ iframe{
     margin-right: 1vw;
     margin-left: 1vw;
 }
-
+footer{
+    background: linear-gradient(45deg,#2a9d8f,#264653,#e76f51);
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
 @media  (max-widht:700px), screen and (orientation:portrait) {
     .lyon {display: none;}
     iframe{display: none;}
