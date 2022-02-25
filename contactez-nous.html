@@ -56,24 +56,22 @@
 </nav>
 
 <main>
+        <form method="post" action="#">
+            <div class="mb-3">
+        <label for="adresse-mail">Adresse mail</label>
+            <input class="form-control form-control-sm" type="text" name="adresse-mail" id="adresse-mail"required>
+</div>
+<div class="mb-3">
 
-            
-    <form method="post" action="#">
-      
-
-    <label for="adresse-mail">Adresse mail</label>
+        <label for="password">Mot de passe</label>
+               <input class="form-control form-control-sm " type="password" name="password" id="password" required>
+            </div>   
+               <div class="d-grid gap-2 d-md-block">
+                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                    <button type="submit" class="btn btn-primary">Insciption</button>
+                </div>
     
-        <input type="text" name="adresse-mail" id="adresse-mail"required>
-
-
-    <label for="password">Mot de passe</label>
-   
-        <input type="password" name="password" id="password" required>
-
-    <button type="submit">Se connecter</button>
-    <button type="submit">Insciption</button>
-    
-    <a href="#">Mot de passe oublié</a>
+            <a href="#">Mot de passe oublié</a>
 
 </form>
 
